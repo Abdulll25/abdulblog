@@ -1,0 +1,2 @@
+# abdulblog
+latihan
