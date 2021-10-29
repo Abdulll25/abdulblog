@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#FFEB3B"
+            android:text="MULAI SIMULASI"
+            android:textAlignment="center"
+            android:textSize="12pt"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editnama"
+            android:layout_width="369dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="21dp"
+            android:layout_marginRight="21dp"
+            android:layout_marginBottom="591dp"
+            android:ems="10"
+            android:hint="nama"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/masukkanjumlahpinjaman"
+            android:layout_width="369dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="21dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="536dp"
+            android:ems="10"
+            android:hint="Masukan Jumlah Pinjaman"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edittempohari"
+            android:layout_width="369dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="482dp"
+            android:ems="10"
+            android:hint="Lama Pinjam (Hari)"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/buttonmulaiakumulasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="262dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="431dp"
+            android:background="#03A9F4"
+            android:onClick="Akumulasi"
+            android:text="Mulai Akumulasi" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="113dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="318dp"
+            android:layout_marginEnd="278dp"
+            android:layout_marginRight="278dp"
+            android:layout_marginBottom="383dp"
+            android:text="Pinjaman"
+            android:textSize="8pt"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editpinjaman"
+            android:layout_width="369dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="22dp"
+            android:layout_marginRight="22dp"
+            android:layout_marginBottom="335dp"
+            android:ems="10"
+            android:hint=""
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edittempohari"
+            android:layout_width="369dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="256dp"
+            android:ems="10"
+            android:hint=""
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="113dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="398dp"
+            android:layout_marginEnd="280dp"
+            android:layout_marginRight="280dp"
+            android:layout_marginBottom="303dp"
+            android:text="Tempo Hari "
+            android:textSize="8pt"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/edittotalpajak"
+            android:layout_width="369dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="23dp"
+            android:layout_marginRight="23dp"
+            android:layout_marginBottom="180dp"
+            android:ems="10"
+            android:hint=""
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editjumlahpinjaman"
+            android:layout_width="369dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="23dp"
+            android:layout_marginRight="23dp"
+            android:layout_marginBottom="180dp"
+            android:ems="10"
+            android:hint=""
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="113dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="479dp"
+            android:layout_marginEnd="279dp"
+            android:layout_marginRight="279dp"
+            android:layout_marginBottom="222dp"
+            android:text="Total Pajak "
+            android:textSize="8pt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="558dp"
+            android:layout_marginEnd="168dp"
+            android:layout_marginRight="168dp"
+            android:layout_marginBottom="143dp"
+            android:text="Total Pengembalian"
+            android:textSize="8pt"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editlamapinjaman"
+            android:layout_width="369dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="23dp"
+            android:layout_marginRight="23dp"
+            android:layout_marginBottom="90dp"
+            android:ems="10"
+            android:hint=""
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edittotalpengembalian"
+            android:layout_width="369dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="23dp"
+            android:layout_marginRight="23dp"
+            android:layout_marginBottom="90dp"
+            android:ems="10"
+            android:hint=""
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/buttonkembalian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="664dp"
+            android:layout_marginEnd="22dp"
+            android:layout_marginRight="22dp"
+            android:layout_marginBottom="29dp"
+            android:background="#FF5722"
+            android:shadowColor="#03A9F4"
+            android:text="Kembali" />
+
+
+</RelativeLayout>
+
+</RelativeLayout>
